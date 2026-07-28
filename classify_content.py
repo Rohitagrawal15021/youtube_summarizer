@@ -22,7 +22,7 @@ Transcript excerpt:
     
 # response from the llm ---
     response = client.models.generate_content(
-       model="gemini-3.5-flash",
+       model="gemini-3.6-flash",
         contents=prompt,
         config=types.GenerateContentConfig(
             max_output_tokens=5
