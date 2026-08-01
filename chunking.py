@@ -1,5 +1,5 @@
 from nltk.tokenize import sent_tokenize
-def chunk_text(text , chunk_size =2000):
+def chunk_text(text , chunk_size =10000):
     sentences = sent_tokenize(text)
     chunks =[]
     current_chunk = ""
