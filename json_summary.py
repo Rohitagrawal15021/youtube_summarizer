@@ -39,8 +39,7 @@ The JSON schema must be:
 ],
 "examples":[],
 "important_terms":[],
-"formulas":[],
-"code_snippets":[],
+"learning_assets":[],
 "common_mistakes":[],
 "summary":""
 }}

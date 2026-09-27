@@ -33,7 +33,7 @@ Transcript excerpt:
 
 
 if __name__ == "__main__":
-    from get_transcript import get_transcript
+    from pipeline.get_transcript import get_transcript
     url = input("Paste youtube url")
     transcript = get_transcript(url)
     if is_study_content(transcript):
