@@ -1,4 +1,4 @@
-from config import client
+from config import generate_with_retry
 import json
 from google.genai import types
 
@@ -48,7 +48,7 @@ Educational Summary:
 
 {final_summary}
 """
-    response = client.models.generate_content(
+    response = generate_with_retry(
         model="gemini-3.6-flash",
         contents=prompt,
         config=types.GenerateContentConfig(
